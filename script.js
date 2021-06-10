@@ -1,5 +1,7 @@
+// Creating Variables.
 let age = 15
 let guess = 0
+// Asking the user to guess my age.
 do {
   guess = prompt('Guess my age')
   if (guess < age) {
