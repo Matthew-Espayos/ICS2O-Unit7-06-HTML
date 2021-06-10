@@ -10,5 +10,5 @@ do {
     alert('You guessed too high, try again.')
   } else if (guess === age) {
     alert('You got it right!')
-  } 
+  }
 } while (guess !== age)
