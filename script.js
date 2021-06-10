@@ -1,5 +1,5 @@
 // Creating Variables.
-let age = 15
+const age = 15
 let guess = 0
 // Asking the user to guess my age.
 do {
@@ -8,7 +8,7 @@ do {
     alert('You guesses too low, try again.')
   } else if (guess > age) {
     alert('You guessed too high, try again.')
-  } else if (guess = age) {
+  } else if (guess === age) {
     alert('You got it right!')
   } 
-} while (guess != age)
+} while (guess !== age)
